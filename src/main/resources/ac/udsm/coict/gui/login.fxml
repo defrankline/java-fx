@@ -21,7 +21,7 @@
         </AnchorPane>
         <AnchorPane prefHeight="400.0" prefWidth="450.0">
             <children>
-                <Pane fx:id="labelPassword" layoutX="37.0" layoutY="119.0">
+                <Pane fx:id="labelPassword" layoutX="37.0" layoutY="98.0">
                     <children>
                         <Label id="labelUsername" fx:id="labelUsername" layoutY="66.0" text="Username" />
                         <TextField id="textFieldUsername" fx:id="textFieldUsername" layoutX="77.0" layoutY="62.0" prefHeight="24.0" prefWidth="253.0" />
@@ -44,7 +44,6 @@
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Hyperlink layoutX="117.0" layoutY="343.0" text="Source Code" />
             </children>
         </AnchorPane>
     </children>
