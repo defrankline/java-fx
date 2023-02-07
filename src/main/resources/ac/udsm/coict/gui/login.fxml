@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ac.udsm.coict.gui.LoginController">
+    <children>
+        <AnchorPane prefHeight="400.0" prefWidth="242.0">
+            <children>
+                <Pane layoutX="-8.0" prefHeight="400.0" prefWidth="200.0" style="-fx-background-color: #3f51b5;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <children>
+                        <Label id="labelLogo" layoutX="7.0" layoutY="159.0" prefHeight="82.0" prefWidth="183.0" text="Club Management System" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                            <font>
+                                <Font name="System Bold" size="21.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+            </children>
+        </AnchorPane>
+        <AnchorPane prefHeight="400.0" prefWidth="450.0">
+            <children>
+                <Pane fx:id="labelPassword" layoutX="37.0" layoutY="119.0">
+                    <children>
+                        <Label id="labelUsername" fx:id="labelUsername" layoutY="66.0" text="Username" />
+                        <TextField id="textFieldUsername" fx:id="textFieldUsername" layoutX="77.0" layoutY="62.0" prefHeight="24.0" prefWidth="253.0" />
+                        <Label id="labelPassword" layoutY="102.0" text="Password" />
+                        <Label id="labelLogin" alignment="CENTER" layoutX="80.0" layoutY="23.0" prefHeight="26.0" prefWidth="251.0" text="Login to Continue!" textAlignment="RIGHT">
+                            <font>
+                                <Font name="System Bold" size="18.0" />
+                            </font>
+                        </Label>
+                        <Button id="btnLogin" fx:id="btnLogin" layoutX="77.0" layoutY="139.0" mnemonicParsing="false" style="-fx-background-color: #3f51b5;" text="Login" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="13.0" />
+                            </font>
+                        </Button>
+                  <PasswordField id="passwordField" fx:id="passwordField" layoutX="77.0" layoutY="98.0" prefHeight="24.0" prefWidth="253.0" />
+                    </children>
+                </Pane>
+            <Label layoutX="117.0" layoutY="313.0" text="username: is611, password: is611">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Hyperlink layoutX="117.0" layoutY="343.0" text="Source Code" />
+            </children>
+        </AnchorPane>
+    </children>
+</HBox>

@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact name="gui:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/gui_jar</output-path>
+    <root id="root">
+      <element id="archive" name="gui.jar">
+        <element id="module-output" name="gui" />
+      </element>
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:17.0.2" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:linux:17.0.2" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:17.0.2" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:linux:17.0.2" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:17.0.2" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:linux:17.0.2" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:17.0.2" />
+      <element id="library" level="project" name="Maven: org.xerial:sqlite-jdbc:3.36.0" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:linux:17.0.2" />
+    </root>
+  </artifact>
+</component>
